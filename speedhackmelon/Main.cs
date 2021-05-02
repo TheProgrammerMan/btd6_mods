@@ -90,17 +90,17 @@ namespace speedhackmelon
                 maxSimulationStepsPerUpdate = 9999;
                 System.Console.WriteLine("speed = " + customspeed);
             }
-            if (Input.GetKeyDown(KeyCode.F1) && Input.GetKey(KeyCode.LeftControl))
+            if (Input.GetKeyDown(KeyCode.Alpha6) && Input.GetKey(KeyCode.LeftControl))
             {
                 slow = !slow;// = maxSimulationStepsPerUpdate == 1 ? 2 : 1;
                 System.Console.WriteLine("slow = " + slow);
             }
-            if (Input.GetKeyDown(KeyCode.F2) && Input.GetKey(KeyCode.LeftControl))
+            if (Input.GetKeyDown(KeyCode.Alpha7) && Input.GetKey(KeyCode.LeftControl))
             {
                 slowAmount = slowAmount == 1 ? 2 : 1;// = maxSimulationStepsPerUpdate == 1 ? 2 : 1;
                 System.Console.WriteLine("slow amount = " + slowAmount);
             }
-            if (Input.GetKeyDown(KeyCode.F5))
+            if (Input.GetKeyDown(KeyCode.Alpha8) && Input.GetKey(KeyCode.LeftControl))
             {
                 Il2CppSystem.Action<int> deb = (Il2CppSystem.Action<int>)delegate (int s)
                 {
